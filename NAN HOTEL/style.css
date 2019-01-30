@@ -67,24 +67,7 @@ a:focus
 			bottom:0px;
 			top:100px;
 }
-@media screen and (max-width: 625px)
-{
-   header h1
-   {
-   	float: left;
-   }
-   nav
-   {
-   	display: block;
-   	float: left;
-   }
-}
-@media screen and (max-width: 976px)
-{
-header h1
-   {
-   	float: left;
-   }
+
 
 
 /*HEADER*/
