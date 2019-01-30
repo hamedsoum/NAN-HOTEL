@@ -1,0 +1,467 @@
+/*GENERAL*/
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+.ensemble
+{
+	margin: 0 auto;
+	padding: 0 0;
+	width:950px;
+}
+,h3
+{
+    color: #444;
+}
+h1
+{
+	text-transform: uppercase;
+}
+h3
+{
+	
+
+}
+ul
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+	color: #444;
+}
+a:hover
+{
+	color:#c7c015;
+}
+a:focus
+{
+    color:#c7c015;
+}
+.clear
+{
+	clear: both;
+}
+
+ nav ul li
+{
+	display: inline-block;
+	margin-right: 22px;
+}
+
+#contenu
+{
+	position:fixed;
+			overflow:auto;
+			right:0px;
+			left:0px;
+			bottom:0px;
+			top:100px;
+}
+@media screen and (max-width: 625px)
+{
+   header h1
+   {
+   	float: left;
+   }
+   nav
+   {
+   	display: block;
+   	float: left;
+   }
+}
+@media screen and (max-width: 976px)
+{
+header h1
+   {
+   	float: left;
+   }
+
+
+/*HEADER*/
+
+header
+{
+	height: 120px;
+    position:fixed;
+	overflow:auto;
+	right:0px;
+	left:0px;
+	top:-10px;
+			
+}
+header h1
+{
+	float: 	left;
+	margin-top: 30px;
+	border-left: 2px  solid #444;
+	padding-left: 10px;
+}
+header nav
+{
+	float: right;
+	margin-top: 50px;
+}
+header nav ul li
+{
+	display: inline-block;
+	margin-right: 22px;
+	list-style: none;
+}
+.button-1
+{
+	border: 1px solid #444;
+	padding:10px;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border-radius: 15px;
+
+}
+.button-1:hover
+{
+	background:black;
+	color: white;
+}
+
+
+/*IMAGE-PRINCIPALE*/
+#image-principale
+{
+	height: 580px;
+
+	background:url('images/banner.jpg') center  ;
+	margin-top: 0px;
+
+	
+}
+.Reserv
+{
+	height:390px;
+	background:rgba(255,255,225,0.7);
+	width:240px;
+	padding-top: 100px;
+	color: #444;
+	text-align: center;
+}
+.Reserv p
+{
+	font-size: 23px;
+	font-family:'Major Mono Display';
+	color: #444;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #444;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+form
+{
+	text-align: left;
+	margin-left: 20px;
+}
+
+input[type="date"]
+{
+	padding:5px;
+	width: 200px;
+	background-color: white;
+}
+
+#date1
+{
+	margin-bottom: 20px;
+}
+#date2
+{
+	margin-bottom: 20px;
+}
+input[type="number"]
+{
+	width:70px; 
+	height:30px;
+
+}
+.Enfants
+{
+	float: right;
+}
+.Adultes
+{
+	margin-top: 20px;
+}
+
+
+
+
+input[type="submit"]
+{
+	background: black;
+    color: white;
+    width: 190px;
+    height:27px;
+    margin-top: 18px;
+    border: 1px solid black;
+    margin-left: 5px;
+    
+}
+input[type="submit"]:hover
+{
+    background: white;
+    color: black;
+}
+
+/*FOOTER*/
+
+footer
+{
+	height: 200px;
+}
+footer .ensemble
+{
+	margin-top: 30px;
+	border-top: 1px solid black;
+	height: 120px;
+	margin-bottom : 20px;
+	font-size: 13px;
+
+}
+footer article 
+{
+    
+    margin-top: 20px;
+    float: left;
+
+}
+footer article #foot1
+{
+	margin-right: 463px;
+
+}
+
+
+#numero{
+	border-left: 1px solid black;
+	padding-left: 10px;
+}
+footer input
+{
+	height: 35px;
+	width: 257px;
+	padding: 10px;
+
+	
+	
+}
+footer input[type="submit"]
+{
+	height: 35px;
+	width: 257px;
+	margin-left: -0.5px;
+}
+footer input[type="email"]
+{
+background: silver;
+border: 1px solid silver;
+color: black;
+}
+
+footer article .icone
+{
+  margin-top: 20px;
+
+  
+ }
+
+ footer article .icone .img
+ {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	margin-bottom: 10px;
+ }
+
+ 
+footer article img
+{
+	
+	padding-left: 5px;
+}
+
+#tiret
+{
+	border-left: 1px solid black;
+	padding-bottom: -5px;
+	margin-right: 5px;
+}
+
+.button-2
+{
+	border: 1px solid #444;
+	padding:5px;
+	display: block;
+	width: 110px;
+	text-align: center;
+	background: black;
+    color: white;
+    float: left	;
+    margin-right: 20px;
+
+
+}
+.button-2:hover
+{
+	background: white;
+	color: black;
+	border: white;
+}
+
+.Copyright
+{
+	margin-top:0px;
+	text-align: center;
+}
+
+/*PAGE DECOUVRIR*/
+#decouvrir .ensemble
+{
+	height: 1300px;
+	background:white ;
+	margin-top: 50px;
+
+}
+
+#presentation
+{
+	height:300px;
+	width: 240px;
+	border: 1px	solid black;
+	float:right;
+}
+#presen
+{
+	float: right;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	font-size: 23px;
+	padding-top: 120px;	
+	padding-left: 20px;
+}
+
+#decouvrir .ensemble .bloc1 img:hover
+{
+   background: white;
+}
+/*PARTIE CHAMBRE*/
+#Chambres
+{
+	height: 1200px;
+	background:white ;
+	margin-top: 0px;
+
+}
+#Chambres .ensemble .part1
+{
+	height: 300px;
+}
+#nos_chambres
+{
+	float: left;
+	margin-right: 25px;
+	background:black;
+	color: white;
+	text-align:center;
+	padding-top: 250px;
+	font-size: 30px;
+}
+.part2
+{
+   margin: 30px auto 10px auto;
+	padding: 0 0;
+	width:850px;
+	background: white;
+	
+	height: 600px;
+		
+}
+.part_chambres
+{
+	width: 850px;
+	height: 850px;
+	
+
+}
+.part_chambres article
+{
+	width: 850px;
+	height: 240px;
+	border-top: 2px solid black;
+	color: #333;
+	margin-bottom: 20px;
+
+}
+
+.part_chambres article div
+{
+   float: left;
+  margin-top: 20px;
+	margin-left: 4px;
+	
+}
+.div3
+{
+	
+}
+
+/*PARTIE SERVICES*/
+#services .ensemble .serv
+{
+   height: 500px;
+	border: 1px solid black;
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 20px;
+}
+#services .ensemble .serv li
+{
+	margin: 35px;
+	color: #555;
+	font-size: 15px;
+	text-align: center;
+}
+/*PARTIE EVENEMENT*/
+.even
+{
+	float: left;
+	height: 500px;
+	width: 300px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+	text-align: left;
+	color: #555;
+	padding-right: 40px;
+
+}
+.even h2
+{
+	color: #555;
+	margin-bottom: 20px;
+}
+.even p
+{
+	padding-bottom: 30px;
+	font-size: 15px;
+	font-family: "Libre Baskerville"
+}
